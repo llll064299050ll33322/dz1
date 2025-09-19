@@ -7,8 +7,8 @@ public class Main2 {
 //        int int00 = 35;
 //        byte byte00 = 10;
 //        short short00 = 350;
-//        long long00 = 3500000000L; // Добавлена буква L для явного указания long
-//        float float00 = 3.14f;      // Добавлена буква f для явного указания float
+//        long long00 = 3500000000L; 
+//        float float00 = 3.14f;      
 //        double double00 = 3.141592653589793;
 //
 //
@@ -95,5 +95,6 @@ public class Main2 {
             System.out.println(kristina + " теперь получает " + kristinaNewSalary + " рублей. " + "Годовой доход вырос на " + kristinaDifference +  " рублей." );
         }
     }
+
 
 
