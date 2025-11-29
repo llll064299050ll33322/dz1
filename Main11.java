@@ -86,7 +86,7 @@ public class Main11 {
         Employee maxEmployee = null;
         for (Employee employee : employees) {
             if (employee != null) {
-                if (maxEmployee == null || employee.getSalary() > maxEmployee.getSalary()) { // Исправлено: должно быть >
+                if (maxEmployee == null || employee.getSalary() > maxEmployee.getSalary()) { 
                     maxEmployee = employee;
                 }
             }
@@ -153,3 +153,4 @@ public class Main11 {
     }
 
 }
+
