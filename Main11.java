@@ -48,7 +48,7 @@ class Employee {
 public class Main11 {
     private Employee[] employees = new Employee[10];
 
-    // Получить список всех сотрудников
+
     public void printEmployeesInfo() {
         for (Employee employee : employees) {
             if (employee != null) {
@@ -151,4 +151,5 @@ public class Main11 {
         System.out.println(" Ф.И.О. всех сотрудников: ");
         main.printAllNames();
     }
+
 }
