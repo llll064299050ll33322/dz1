@@ -12,7 +12,7 @@ public class MainDZ2_5  {
 
         library.put("Война и мир", true);
         library.put("Преступление и наказание", true);
-        library.put("Мастер и Маргарита", false); // уже выдана
+        library.put("Мастер и Маргарита", false);
         library.put("Евгений Онегин", true);
 
         System.out.println("\nВыдача книги");
@@ -100,3 +100,4 @@ public class MainDZ2_5  {
         }
     }
 }
+
