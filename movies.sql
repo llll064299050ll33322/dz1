@@ -9,7 +9,7 @@ INSERT INTO Movies (movie_id,title, director, release_year) VALUES
 (1,'Один', 'Крис Коламбус', 1991),
 (2,'Шрэк', 'Эндрю Адамсон', 2001),
 (3,'Аватар', 'Джеймс Кэмерон', 2009),
-(4,'Матрица', 'Лана Вачовски', 1999);
+(4,'Матрица', 'Братья Вачовски', 1999);
 
 SELECT * FROM Movies;
 
@@ -22,5 +22,6 @@ SELECT * FROM Movies;
 
 DELETE FROM Movies
 WHERE movie_id = 4;
+
 
 SELECT * FROM Movies;
